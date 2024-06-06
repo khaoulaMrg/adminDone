@@ -1,10 +1,10 @@
 /* Assurez-vous que le body et le html prennent toute la hauteur */
-html, body {
+.body {
   height: 100%;
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif; /* Utilisation d'une police de caractères lisible */
-  background-color: #f9f9f9; /* Fond léger pour une meilleure visibilité */
+  background-color: white; /* Fond léger pour une meilleure visibilité */
 }
 
 
@@ -21,7 +21,7 @@ html, body {
   /* Ajustez selon vos besoins */
   padding: 20px;
   box-sizing: border-box;
-  background-color: #d9d9da;
+  background-color: #f2ecf8;
   padding-bottom: 50px;
   text-align: center;
 border-top-left-radius: 30px; 
@@ -41,7 +41,6 @@ box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); /* Légère ombre pour le container 
   margin-top: 80px; /* Ajoute une marge supérieure pour éviter que le titre ne soit caché sous la barre de navigation */
   position: sticky; /* Positionne le titre de façon à ce qu'il reste visible même en faisant défiler la page */
   top: 0; /* Alignement du titre en haut de la page */
-  background-color: #d9d9da;
   z-index: 1000; /* Assure que le titre est au-dessus du contenu */
 }
 
